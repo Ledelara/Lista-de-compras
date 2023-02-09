@@ -1,0 +1,78 @@
+:root {
+    --font-family: "Roboto";
+    --tamanho-font: 18px;
+    --roxo-principal: #836FFF;
+    --preto: #000000;
+    --branco: #ffffff; 
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--tamanho-font);
+    background: var(--roxo-principal);
+}
+
+.conteudo {
+    padding: 10vh 3em 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.texto-principal {
+    padding: 2em 0;
+}
+
+.adicionar {
+    width: 100%;
+}
+
+.adicionar input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0.5em 0 1em;
+    padding: 1em 0.5em;
+    border-radius: 10px;
+    border: 2px solid var(--preto);
+}
+
+.adicionar label {
+    display: block;
+}
+
+.cadastrar {
+    background-color: var(--preto);
+    color: var(--branco);
+    cursor: pointer;
+    font-size: var(--tamanho-font);
+}
+
+.lista {
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    list-style: none;
+    padding: 0.6em 2em;
+    background: var(--branco);
+    border-radius: 10px;
+    margin: 0 0 1em;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 20px;
+}
+
+.item strong {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    Background: var(--branco);
+    font-weight: 400;
+}
